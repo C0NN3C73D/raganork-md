@@ -30,13 +30,13 @@ Module({
   var myid = message.client.user.id.split(":")[0]
   var buttons = [{
     urlButton: {
-        displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        displayText: 'instagram',
+        url: 'https://www.instagram.com/sidhu.tesla'
     }
 }, {
   urlButton: {
     displayText: 'Contact Owner',
-    url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
+    url: 'https://wa.me/917736305547?text=Hey+bro'
     }
 }, {
     quickReplyButton: {
@@ -54,21 +54,21 @@ Module({
         id: 'support'+myid
     }
 }]
-var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
+var menu = `╭═══〘 sidhu.tesla〙═══⊷❍
 ┃✩╭──────────────
 ┃✩│
-┃✩│ Owner : ${BOT_INFO.split(";")[1]}
+┃✩│ Owner : #sidhu
 ┃✩│ User : ${message.senderName}
 ┃✩│ Mode : ${MODE}
-┃✩│ Server : ${config.HEROKU.APP_NAME}
+┃✩│ insta : sidhu.tesla
 ┃✩│ Ram: 1024 MB
 ┃✩│ Disk Space: 620 GB
-┃✩│ Version: ${config.VERSION}
+┃✩│ support gooyz
 ┃✩│
 ┃✩│
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃✩│   ${BOT_INFO.split(";")[0]}
+┃✩│   #sidhuser
 ┃✩│ 
 ┃✩╰───────────────
 ╰═════════════════⊷
